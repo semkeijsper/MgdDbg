@@ -1184,7 +1184,6 @@ namespace MgdDbg.Snoop.CollectorExts
             data.Add(new Snoop.Data.Bool("Is boundary clipping", ctxt.IsBoundaryClipping));
             data.Add(new Snoop.Data.Bool("Is nesting", ctxt.IsNesting));
             data.Add(new Snoop.Data.Bool("Is plot generation", ctxt.IsPlotGeneration));
-            data.Add(new Snoop.Data.Bool("Is PostScript out", ctxt.IsPostScriptOut));
             data.Add(new Snoop.Data.Bool("Supports TrueType text", ctxt.SupportsTrueTypeText));
         }
 
